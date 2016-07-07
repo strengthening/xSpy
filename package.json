@@ -1,0 +1,15 @@
+{
+  "name": "xspy",
+  "version": "1.0.0",
+  "description": "npm install phantom --save",
+  "main": "index.js",
+  "dependencies": {
+    "phantom": "^2.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
