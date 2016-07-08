@@ -30,8 +30,8 @@ setTimeout(function(){
         "User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36"
     };
 
-    // page.open('http://quote.forex.hexun.com/ForexXML/QTMI/QTMI_5_xauusd.xml?&ts=1467859902565', function (status) {
-    page.open('http://quote.forex.hexun.com/ForexXML/MI_CUR5/MI_CUR5_5_xauusd.xml?&ts=1467859252335', function (status) {
+    page.open('http://quote.forex.hexun.com/ForexXML/QTMI/QTMI_5_xauusd.xml?&ts=1467935524565', function (status) {
+    // page.open('http://quote.forex.hexun.com/ForexXML/MI_CUR5/MI_CUR5_5_xauusd.xml?&ts=1467859252335', function (status) {
 
       var content = page.content;
       console.log('Content: ' + content);
