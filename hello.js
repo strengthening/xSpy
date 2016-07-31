@@ -35,6 +35,6 @@ setTimeout(function(){
 
       var content = page.content;
       console.log('Content: ' + content);
-      phantom.exit();
+      phantom.kill();
     })
 },3000)
